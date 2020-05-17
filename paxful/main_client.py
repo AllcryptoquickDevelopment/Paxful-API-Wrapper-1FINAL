@@ -5,12 +5,12 @@ import requests
 
 from paxful.paxful_rest import RestClient
 from paxful.trade_client import TradeClient
-#test_4
+
 
 class PaxfulClient(object):
     url = 'https://paxful.com/api/'
 
-    def __init__(self, api_key='cinow2PP8hCD_MTe6p-YlnhQIeRiQswcxx', api_secret='F8Rt6xuKRpLVs7vowoDX79O_39RK1kLdxx',
+    def __init__(self, api_key='cinow2P4gwP8hCD_MTe6p-YlnhQIeRrtiQswcxx', api_secret='F8Rt6xuKwertRpLVs7vowoDwertX79O_39RK1kLdxx',
                  timeout=None, session=None, logger=None):
         self._rest_client = RestClient(url=self.url,
                                        api_key=api_key,
@@ -174,7 +174,7 @@ class PaxfulClient(object):
 
         :param hash_id: unique identifier for a given trade
         :type: str
-        :return Trade client to be ised for handling all trade transactions
+        :return Trade client to be used for handling all trade transactions
         :type: TradeClient
         """
         self._log('Create trade object')
