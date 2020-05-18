@@ -1,10 +1,10 @@
 import setuptools
 
-with open("paxful\\README.md", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="paxful-api", # Replace with your own username
+    name="paxful-api-test",  # TODO remove test from name
     version="0.0.1",
     author="tholness",
     author_email="support.ec1818@tryninja.io",
