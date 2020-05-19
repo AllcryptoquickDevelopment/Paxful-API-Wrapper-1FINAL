@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="paxful-api-test",  # TODO remove test from name
-    version="0.0.2",
+    name="paxful-api",
+    version="1.0",
     author="tholness",
     author_email="support.ec1818@tryninja.io",
     description="A python wrapper for Paxful REST API v1",
