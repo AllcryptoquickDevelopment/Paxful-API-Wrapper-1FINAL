@@ -11,7 +11,7 @@ setuptools.setup(
     description="A python wrapper for Paxful REST API v1",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tholness/Paxful-Python-API",
+    url="https://github.com/tholness/Paxful-API-Wrapper",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
