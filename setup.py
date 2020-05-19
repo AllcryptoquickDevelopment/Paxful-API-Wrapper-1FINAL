@@ -22,6 +22,5 @@ setuptools.setup(
     install_requires=[
         'requests>=2.23.0',
         'simplejson>=3.17.0'
-
     ]
 )
