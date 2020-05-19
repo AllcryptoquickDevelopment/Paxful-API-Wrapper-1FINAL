@@ -19,7 +19,7 @@ class RestClient(object):
     :type api_key: str | unicode
     :param api_secret: Paxful API secret.
     :type api_secret: str | unicode
-    :param timeout: Number of seconds to wait for QuadrigaCX to respond to an API request.
+    :param timeout: Number of seconds to wait for Paxful to respond to an API request.
     :type timeout: int | float
     :param session: User-defined requests.Session object.
     :type session: requests.Session
@@ -35,9 +35,9 @@ class RestClient(object):
         self._session = session
 
     def _handle_response(self, resp):
-        """Handle the response from QuadrigaCX.
+        """Handle the response from Paxful.
 
-        :param resp: Response from QuadrigaCX.
+        :param resp: Response from Paxful.
         :type resp: requests.models.Response
         :return: Response body.
         :rtype: dict

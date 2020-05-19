@@ -106,7 +106,7 @@ class TradeClient(object):
         """
         return self._rest_client.post(
             endpoint='feedback/give',
-            payload={'trade_hash': self._hash, 'message': 'Great! Thanks for choosing Journey Capital', 'rating': 1}
+            payload={'trade_hash': self._hash, 'message': 'Great! Thanks for choosing _________', 'rating': 1}
         )
 
     def dispute(self, reason):

@@ -100,9 +100,9 @@ class PaxfulClient(object):
                   'range_min': range_min,
                   'range_max': range_max,
                   'payment_window': payment_window,
-                  'offer_terms': offer_terms or f'This is an Automated Trading Machine available 24/7. \nVerification of cards is done automatically.\nFollow all instructions and ONLY ENTER WHAT IS ASKED.\n\nRequirements:\n{requirements}\n\nSEE EXAMPLE BELOW\n\nExample Trade:\n*************************************************************************************************\nATM: Hi, thanks for choosing Journey Capital.\nThis is an automated trading platform.\nPlease follow all instructions as they appear.\n\nATM: Please upload receipts.\nYOU: **uploads pictures**\n\nATM: Please upload of card.\nYOU: **uploads pictures**\n\nATM: Please wait while they are verified.....Confirmed!\nATM: Please enter the card number, the expiration date and the CVV (3 pin on back) separated with a comma:\n          Example: 4256125364789531, 07/23, 523\n\nATM: Verifying...please wait\nATM:  4256125364789531 - SUCCESS: $25.0\nATM:  Total given: $25.0\nATM:  Thanks for choosing Journey Capital!\n\nSuccess! Seller has released bitcoins to buyers wallet.\n*************************************************************************************************',
+                  'offer_terms': offer_terms or f'Place specific offer terms here that will be copied to all offers.',
                   'tags': tags,
-                  'trade_details': 'Type "HELP" to speak to an actual person.'
+                  'trade_details': '--Any details to be added--'
                   }
         if info:
             params.update(info)
@@ -132,7 +132,7 @@ class PaxfulClient(object):
                   'payment_window': payment_window,
                   'tags': tags,
                   'offer_terms': offer_details,
-                  'trade_details': 'Type "HELP" to speak to an actual person.'
+                  'trade_details': '--Any details to be added--'
                   }
         info = {}
         for key in params:
