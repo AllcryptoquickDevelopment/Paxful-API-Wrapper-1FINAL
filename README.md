@@ -43,6 +43,12 @@ Extract the _hash id_ of each trade and create a trade object:
 
 `tr = client.trade(hash_id)` 
 
+# Support
+If you would like to support continued development of this project, please consider donating. Even a cup of coffee goes a 
+long way!
+
+**BTC:** 1EYXU9PReWSA672y6sFpEdcopHMsx2yy6C
+
 # LICENSE
 MIT License
 
